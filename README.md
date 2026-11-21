@@ -42,8 +42,8 @@ The project aims to provide an fun, engaging, and interactive entertainment expe
       <li>One more class inherits from the Offensive Class: Soldiers</li>
 	<ul>
         <li>The <u><b>Soldiers class</b></u> inherit everything from the offensive class, but there is an extraEncounter()  method that makes it easier to encounter compared to other NPCs.</li>
-        <ul><li>Soldiers can also be <u><b>Knights</b></u>, which inherit everything from the soldiers, but have better stats (health and damage) overall <br>
-		</li></ul>
+        <ul><li>Soldiers can also be <u><b>Knights</b></u>, which inherit everything from the soldiers, but have better stats (health and damage) overall
+		</li></ul> <br>
 		</ul>
 	</ul>
 
@@ -64,10 +64,10 @@ The project aims to provide an fun, engaging, and interactive entertainment expe
 
 <li>House Classes contain NPCs in an aggregation relationship:
 	<ul>
-  <li>It has 3 attributes and 2 methods:</li>
+  <li>It has 3 attributes and 2 methods:</li> <br>
 		<ul>
     <li><b>Attributes:</b> An NPC house_ruler, a house_members list filled with NPCs and the Player, and the house name as a string.</li>
-    <li><b>Methods:</b> There is one method to join an alliance with another House to form a bigger list of Houses, or declare war on a house. Depending on where the player joins, these declarations could be random because other       Houses could declare war on the player’s house.</li>
+    <li><b>Methods:</b> There is one method to join an alliance with another House to form a bigger list of Houses, or declare war on a house. Depending on where the player joins, these declarations could be random because other       Houses could declare war on the player’s house.</li> <br>
 		</ul>
    <li> Houses could be <b>“Allied Houses”</b> or <b>“Opposing Houses"</b> depending on the alliance you have with them: </li>
 		<ul> <br>
@@ -82,7 +82,7 @@ The intended users are players interested in medieval fantasy, RPGs, exploration
 
 ## Goals:
 <ul>
-<li></li>Objective 1: By the end of project development period, we want to make a playable 2D top down low fantasy medieval RPG European-inspired setting with at least three explorable and interactive settings, five interactive non-playable characters (NPCs), and two distinct main factions, each with its own identity and interests, showing the application of python object-oriented programming (OOP) and worldbuilding.</li>
+<li>Objective 1: By the end of project development period, we want to make a playable 2D top down low fantasy medieval RPG European-inspired setting with at least three explorable and interactive settings, five interactive non-playable characters (NPCs), and two distinct main factions, each with its own identity and interests, showing the application of python object-oriented programming (OOP) and worldbuilding.</li>
 
 <li>Objective 2: By the end of project development period, we want to make at least four main gameplay systems, namely, character progression, inventory management, quest management, and turn-based combat, showing the application of python object-oriented programming (OOP) and worldbuilding.</li>
 
