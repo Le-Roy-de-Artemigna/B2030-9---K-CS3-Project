@@ -93,6 +93,8 @@ Roy Vincent Canseco
 
 Hi Sir. Roy! We hope you like this project proposal because we’re actually quite passionate about it! All of us in our group are quite interested in these types of “interactive RPGs” and the worldbuilding behind them, so it would be REALLLLLLY cool if you liked it too po!!! Thank you!!!
 
+Google Document Project Proposal Link: https://docs.google.com/document/d/1OYx6tYv5j-dMb8ukUuVH995kG_sb6tQgWylzicBD3i0/edit?tab=t.0
+
 Mode of Submission: through KHUB with a link to your README.MD inside your github account  (GitHub or https://github.com/) NOTE: Create an account for your project (one is the owner two will be collaborators)
 
 
