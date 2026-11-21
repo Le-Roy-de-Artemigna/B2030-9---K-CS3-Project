@@ -76,7 +76,7 @@ The intended users are players interested in medieval fantasy, RPGs, exploration
 <img width="419" height="366" alt="image" src="https://github.com/user-attachments/assets/65c9a3ed-ea1c-4d10-962d-2bb97370a3b1" />
 
 
-Goals:
+## Goals:
 Objective 1: By the end of project development period, we want to make a playable 2D top down low fantasy medieval RPG European-inspired setting with at least three explorable and interactive settings, five interactive non-playable characters (NPCs), and two distinct main factions, each with its own identity and interests, showing the application of python object-oriented programming (OOP) and worldbuilding.
 
 Objective 2: By the end of project development period, we want to make at least four main gameplay systems, namely, character progression, inventory management, quest management, and turn-based combat, showing the application of python object-oriented programming (OOP) and worldbuilding.
@@ -94,15 +94,11 @@ Objective 3: By the end of project development period, we want to make at least 
 
 
 
-Signatures:
+## Signatures:
 
 
 
-
-
-Gabriel Alfonso Ascano 
-Nathan Ray Gabito
-Venyceson Reyes
+<img src="ourlovelysigs.png" alt="Hi Sir Roy!!">
 
 
 
@@ -111,7 +107,8 @@ Venyceson Reyes
 Roy Vincent Canseco 
 
 
-Hi Sir. Roy! We hope you like this project proposal because we’re actually quite passionate about it! All of us in our group are quite interested in these types of “interactive RPGs” and the worldbuilding behind them, so it would be REALLLLLLY cool if you liked it too po!!! Thank you!!!
+## Message for Sir Roy:
+Hi Sir. Roy! We hope you like this project proposal because we’re actually quite passionate about it! All of us in our group are quite interested in these types of “interactive RPGs” and the worldbuilding behind them, so it would be <b>REALLLLLLY</b> cool if you liked it too po!!! Thank you!!!
 
 Google Document Project Proposal Link: https://docs.google.com/document/d/1OYx6tYv5j-dMb8ukUuVH995kG_sb6tQgWylzicBD3i0/edit?tab=t.0
 
