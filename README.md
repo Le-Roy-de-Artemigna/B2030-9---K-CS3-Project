@@ -30,7 +30,7 @@ The project aims to provide an fun, engaging, and interactive entertainment expe
     </li>This is the class the user will control. Player inherits all attributes from the Character, with addition to an inventory full of the weapons they use. All methods are also inherited, with addition to two new methods. The first one is an encounter method, which is executed when the Player goes near an Enemy. This makes the Player dependent on an NPC. There is also a flee method, allowing the player to run away from these encounters.</li> </ul><br>
  <b><u>NPC Class:</u></b>
  <ul>
-    <li>NPC inherits all methods and attributes from Character. However, the move method is now at random because no one controls the NPC.</li> 
+    <li>NPC inherits all methods and attributes from Character. However, the move method is now at random because no one controls the NPC.</li> <br>
  </ul>
     The NPC is very important because it interacts with many other classes for both game and story progression:
 <ul>
@@ -42,7 +42,7 @@ The project aims to provide an fun, engaging, and interactive entertainment expe
       <li>One more class inherits from the Offensive Class: Soldiers</li>
 	<ul>
         <li>The <u><b>Soldiers class</b></u> inherit everything from the offensive class, but there is an extraEncounter()  method that makes it easier to encounter compared to other NPCs.</li>
-        <ul><li>Soldiers can also be <u><b>Knights</b></u>, which inherit everything from the soldiers, but have better stats (health and damage) overall
+        <ul><li>Soldiers can also be <u><b>Knights</b></u>, which inherit everything from the soldiers, but have better stats (health and damage) overall <br>
 		</li></ul>
 		</ul>
 	</ul>
@@ -66,13 +66,13 @@ The project aims to provide an fun, engaging, and interactive entertainment expe
 	<ul>
   <li>It has 3 attributes and 2 methods:</li>
 		<ul>
-    <li>Attributes: An NPC house_ruler, a house_members list filled with NPCs and the Player, and the house name as a string.</li>
-    <li>Methods: There is one method to join an alliance with another House to form a bigger list of Houses, or declare war on a house. Depending on where the player joins, these declarations could be random because other       Houses could declare war on the player’s house.</li>
+    <li><b>Attributes:</b> An NPC house_ruler, a house_members list filled with NPCs and the Player, and the house name as a string.</li>
+    <li><b>Methods:</b> There is one method to join an alliance with another House to form a bigger list of Houses, or declare war on a house. Depending on where the player joins, these declarations could be random because other       Houses could declare war on the player’s house.</li>
 		</ul>
-   <li> Houses could be “Allied Houses” or “Opposing Houses depending on the alliance you have with them: </li>
-		<ul>
-        <li>AlliedHouse Classes inherit everything from the normal house, but it also includes the x and y positions of the house as integers. In addition, it also has the method recruitAllies(), which allows you to recruit           more members for the houses.</li>
-        <li>Opposing House Classes are Houses that your alliance houses have declared war on. They inherit everything from the House, and it also contains x and y positions as integer attributes.</ul></ul></li>
+   <li> Houses could be <b>“Allied Houses”</b> or <b>“Opposing Houses"</b> depending on the alliance you have with them: </li>
+		<ul> <br>
+        <li><b>AlliedHouse</b> Classes inherit everything from the normal house, but it also includes the x and y positions of the house as integers. In addition, it also has the method recruitAllies(), which allows you to recruit           more members for the houses.</li>
+        <li><b>OpposingHouse</b> Classes are Houses that your alliance houses have declared war on. They inherit everything from the House, and it also contains x and y positions as integer attributes.</ul></ul></li>
 </ul>
 
 The intended users are players interested in medieval fantasy, RPGs, exploration, and narrative-driven experiences or just anyone who enjoys interactive storytelling and strategic decision-making.
