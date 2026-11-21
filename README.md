@@ -13,7 +13,7 @@ The Crimson Court of Caerwick is a low fantasy medieval RPG game set in the fict
 The project aims to provide an fun, engaging, and interactive entertainment experience through exploration, character progression, and consequential decision-making. It will also serve as an application of Python object-oriented programming (OOP) with the use of classes, attributes, methods, inheritance, encapsulation, inheritance, polymorphism, and more to create and build the game.
 
 ## Classes:
-<b>Character Class:</b>
+<u><b>Character Class:</b></u>
   This is the class the people that interact will have. They have 7 attributes and 2 methods:
   <ul>
    <li> Attributes: Their name as a string, their health points and rawattack points as integers, their x position and y position as integers to track their movement, their specialAbility as a string, and their Allied_House as a string. </li>
@@ -25,10 +25,10 @@ The project aims to provide an fun, engaging, and interactive entertainment expe
 </li>
 <li>Two classes inherit from Character: Player and NPC</li>
 </ul> <br>
-  <b>Player Class:</b>
+  <b><u>Player Class:</u></b>
   <ul>
     </li>This is the class the user will control. Player inherits all attributes from the Character, with addition to an inventory full of the weapons they use. All methods are also inherited, with addition to two new methods. The first one is an encounter method, which is executed when the Player goes near an Enemy. This makes the Player dependent on an NPC. There is also a flee method, allowing the player to run away from these encounters.</li> </ul>ul> 
- <b>NPC Class:</b>
+ <b><u>NPC Class:</u></b>
  <ul>
     <li>NPC inherits all methods and attributes from Character. However, the move method is now at random because no one controls the NPC.</li> 
  </ul>
@@ -36,13 +36,13 @@ The project aims to provide an fun, engaging, and interactive entertainment expe
 <ul>
   <li>Offensive and Miscellaneous inherit from NPC:</li>
 	<ul>
-    <li> The Offensive class is a class that can deal damage and make a player faint whenever the two interact: </li>
+    <li> The <u><b>Offensive class</b></u> is a class that can deal damage and make a player faint whenever the two interact: </li>
 		<ul>
       <li>Its attributes and methods are all inherited from NPC, with addition to a “damage” attribute which is an integer that adds on to the rawattack attribute at random. This determines how many health points the Player loses when it attacks. </li>
       <li>One more class inherits from the Offensive Class: Soldiers</li>
 	<ul>
-        <li>The Soldiers class inherit everything from the offensive class, but there is an extraEncounter()  method that makes it easier to encounter compared to other NPCs.</li>
-        <ul><li>Soldiers can also be Knights, which inherit everything from the soldiers, but have better stats (health and damage) overall
+        <li>The <u><b>Soldiers class</b></u> inherit everything from the offensive class, but there is an extraEncounter()  method that makes it easier to encounter compared to other NPCs.</li>
+        <ul><li>Soldiers can also be <u><b>Knights</b></u>, which inherit everything from the soldiers, but have better stats (health and damage) overall
 		</li></ul>
 		</ul>
 	</ul>
@@ -52,7 +52,7 @@ The project aims to provide an fun, engaging, and interactive entertainment expe
   <li>In our shown class diagram, 3 other classes inherit from this, namely:</li> 
    <ul> <li>Quest Giver: This will serve as the main class for characters in our game that will give quests through the method assignQuest(). It doesn’t move and forms a multilevel inheritance with Character, through NPC, and         then Miscellaneous, inheriting its attributes such as health, x and y position, name and joined kingdom. In addition, quest giver has a Composition relationship with Class Quest.</li>
 	   <ul>
-        <li><b>Class Quest:</b>
+        <li><b><u>Class Quest:</u></b>
           This class contains all key properties and attributes of an ideal quest in our game, which includes the quest string or statement. And to reward players, upon completion, a reward may be given by completing the            quest. </li>
 	   </ul>
     <li>Thief: This class also undergoes a multilevel inheritance with Character, through NPC and Miscellaneous to inherit name, x and y position, joined kingdom, and health attributes. In order to make this character more        unique, we gave it the ability to steal/plunder, move and faint through the methods plunder(), faint() and move(). </li>
