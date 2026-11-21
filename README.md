@@ -82,12 +82,12 @@ The intended users are players interested in medieval fantasy, RPGs, exploration
 
 ## Goals:
 <ul>
-<li>Objective 1: By the end of project development period, we want to make a playable 2D top down low fantasy medieval RPG European-inspired setting with at least three explorable and interactive settings, five interactive non-playable characters (NPCs), and two distinct main factions, each with its own identity and interests, showing the application of python object-oriented programming (OOP) and worldbuilding.</li>
+<li><b>Objective 1:</b> By the end of project development period, we want to make a playable 2D top down low fantasy medieval RPG European-inspired setting with at least three explorable and interactive settings, five interactive non-playable characters (NPCs), and two distinct main factions, each with its own identity and interests, showing the application of python object-oriented programming (OOP) and worldbuilding.</li>
 
-<li>Objective 2: By the end of project development period, we want to make at least four main gameplay systems, namely, character progression, inventory management, quest management, and turn-based combat, showing the application of python object-oriented programming (OOP) and worldbuilding.</li>
+<li><b>Objective 2:</b> By the end of project development period, we want to make at least four main gameplay systems, namely, character progression, inventory management, quest management, and turn-based combat, showing the application of python object-oriented programming (OOP) and worldbuilding.</li>
 
 
-<li>Objective 3: By the end of project development period, we want to make at least three conquestial player decisions that 
+<li><b>Objective 3:</b> By the end of project development period, we want to make at least three conquestial player decisions that 
 	affect the storyline, faction relationships, and quest outcomes. We also want to make at least two distinct possible endings. 
 	We will validate the game’s functionality through systematic play testing.</li>
 </ul>
@@ -104,7 +104,7 @@ The intended users are players interested in medieval fantasy, RPGs, exploration
 
 
 
-<img width="400" src="ourlovelysigs.png" alt="Hi Sir Roy!!">
+<img width="512" src="ourlovelysigs.png" alt="Hi Sir Roy!!">
 
 
 
