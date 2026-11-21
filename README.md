@@ -1,5 +1,5 @@
 # B2030-9---K-CS3-Project
-Project Proposal Template
+## Project Proposal Template
 
 <b>Project Title or 
 Name of the Application</b>	: The Crimson Court of Caerwick <br>
@@ -7,12 +7,12 @@ Name of the Application</b>	: The Crimson Court of Caerwick <br>
 <b>Group Members</b>			: Gabriel Alfonso Ascano, Nathan Ray Gabito, and Venyceson Reyes <br>	
 <b>Date (Proposal Date)</b>	: November 21, 2026 
 
-<b><p style="fontsize: 19;">Project Description:</p></b>
+## Project Description:
 The Crimson Court of Caerwick is a low fantasy medieval RPG game set in the fictional Kingdom of Caerwick following the death of King Edric “the Just” III and the subsequent succession crisis. Players assume the role of an adventurer whose decisions, alliances, and actions influence the kingdom's political landscape. They can select a character class, acquire equipment, complete quests, interact with non-player characters (NPCs), engage in turn-based combat, and explore the kingdom's diverse regions. The game primarily takes place in Aurecourt, the kingdom's capital and center of political power, where competing noble houses struggle for influence over the vacant throne.
 
 The project aims to provide an fun, engaging, and interactive entertainment experience through exploration, character progression, and consequential decision-making. It will also serve as an application of Python object-oriented programming (OOP) with the use of classes, attributes, methods, inheritance, encapsulation, inheritance, polymorphism, and more to create and build the game.
 
-<b><p style="fontsize: 19;">Classes:</p></b>
+## Classes:
 <b>Character Class:</b>
   This is the class the people that interact will have. They have 7 attributes and 2 methods:
   <ul>
@@ -36,11 +36,16 @@ Two classes inherit from Character: Player and NPC
 <ul>
   <li>Offensive and Miscellaneous inherit from NPC:</li>
 	<ul>
-    The Offensive class is a class that can deal damage and make a player faint whenever the two interact:
-      Its attributes and methods are all inherited from NPC, with addition to a “damage” attribute which is an integer that adds on to the rawattack attribute at random. This determines how many health points the Player         loses when it attacks. 
-      One more class inherits from the Offensive Class: Soldiers
-        The Soldiers class inherit everything from the offensive class, but there is an extraEncounter()  method that makes it easier to encounter compared to other NPCs.
-        Soldiers can also be Knights, which inherit everything from the soldiers, but have better stats (health and damage) overall
+    <li> The Offensive class is a class that can deal damage and make a player faint whenever the two interact: </li>
+		<ul>
+      <li>Its attributes and methods are all inherited from NPC, with addition to a “damage” attribute which is an integer that adds on to the rawattack attribute at random. This determines how many health points the Player loses when it attacks. </li>
+      <li>One more class inherits from the Offensive Class: Soldiers</li>
+	<ul>
+        <li>The Soldiers class inherit everything from the offensive class, but there is an extraEncounter()  method that makes it easier to encounter compared to other NPCs.</li>
+        <ul><li>Soldiers can also be Knights, which inherit everything from the soldiers, but have better stats (health and damage) overall
+		</li></ul>
+		</ul>
+	</ul>
 
 The Miscellaneous Class on the other hand: 
   Are those that are incapable of doing damage to the player character. Rather, they serve as support characters, or peons for the plot of the story, but still help with its progression. However, they still inherit every    attribute and method from NPC except for “rawattack.” and move().
