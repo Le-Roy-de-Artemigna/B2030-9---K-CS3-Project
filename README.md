@@ -23,8 +23,8 @@ The project aims to provide an fun, engaging, and interactive entertainment expe
   <li style="list-style-type: square;">faint(): When a player gets 0 HP, they will be transported to a clinic, and will have to wait for a bit until they play again.</li>
 </ul>
 </li>
-</ul>
-Two classes inherit from Character: Player and NPC
+<li>Two classes inherit from Character: Player and NPC</li>
+</ul> <br>
   <b>Player Class:</b>
   <ul>
     </li>This is the class the user will control. Player inherits all attributes from the Character, with addition to an inventory full of the weapons they use. All methods are also inherited, with addition to two new methods. The first one is an encounter method, which is executed when the Player goes near an Enemy. This makes the Player dependent on an NPC. There is also a flee method, allowing the player to run away from these encounters.</li> </ul>ul> 
@@ -47,14 +47,18 @@ Two classes inherit from Character: Player and NPC
 		</ul>
 	</ul>
 
-The Miscellaneous Class on the other hand: 
-  Are those that are incapable of doing damage to the player character. Rather, they serve as support characters, or peons for the plot of the story, but still help with its progression. However, they still inherit every    attribute and method from NPC except for “rawattack.” and move().
-  In our shown class diagram, 3 other classes inherit from this, namely: 
-    Quest Giver: This will serve as the main class for characters in our game that will give quests through the method assignQuest(). It doesn’t move and forms a multilevel inheritance with Character, through NPC, and         then Miscellaneous, inheriting its attributes such as health, x and y position, name and joined kingdom. In addition, quest giver has a Composition relationship with Class Quest.
-        Class Quest:
-          This class contains all key properties and attributes of an ideal quest in our game, which includes the quest string or statement. And to reward players, upon completion, a reward may be given by completing the            quest.
-    Thief: This class also undergoes a multilevel inheritance with Character, through NPC and Miscellaneous to inherit name, x and y position, joined kingdom, and health attributes. In order to make this character more        unique, we gave it the ability to steal/plunder, move and faint through the methods plunder(), faint() and move().
-    Trader: The Trader class brings life to a new character as it inherits all its attributes from Character, giving it health, an x and y position and which house it belongs to. It allows the player to trade with it          through method trade(), and doesn’t move places for convenience. 
+<li>The Miscellaneous Class on the other hand:</li>
+  <ul><li>Are those that are incapable of doing damage to the player character. Rather, they serve as support characters, or peons for the plot of the story, but still help with its progression. However, they still inherit every    attribute and method from NPC except for “rawattack.” and move().</li>
+  <li>In our shown class diagram, 3 other classes inherit from this, namely:</li> 
+   <ul> <li>Quest Giver: This will serve as the main class for characters in our game that will give quests through the method assignQuest(). It doesn’t move and forms a multilevel inheritance with Character, through NPC, and         then Miscellaneous, inheriting its attributes such as health, x and y position, name and joined kingdom. In addition, quest giver has a Composition relationship with Class Quest.</li>
+	   <ul>
+        <li><b>Class Quest:</b>
+          This class contains all key properties and attributes of an ideal quest in our game, which includes the quest string or statement. And to reward players, upon completion, a reward may be given by completing the            quest. </li>
+	   </ul>
+    <li>Thief: This class also undergoes a multilevel inheritance with Character, through NPC and Miscellaneous to inherit name, x and y position, joined kingdom, and health attributes. In order to make this character more        unique, we gave it the ability to steal/plunder, move and faint through the methods plunder(), faint() and move(). </li>
+    <li> Trader: The Trader class brings life to a new character as it inherits all its attributes from Character, giving it health, an x and y position and which house it belongs to. It allows the player to trade with it          through method trade(), and doesn’t move places for convenience. </li> 
+   </ul>
+  </ul>
 	</ul>
 	
 
