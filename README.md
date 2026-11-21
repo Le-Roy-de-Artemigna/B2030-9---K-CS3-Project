@@ -55,7 +55,7 @@ The project aims to provide an fun, engaging, and interactive entertainment expe
         <li><b><u>Class Quest:</u></b>
           This class contains all key properties and attributes of an ideal quest in our game, which includes the quest string or statement. And to reward players, upon completion, a reward may be given by completing the            quest. </li>
 	   </ul><br>
-    <li><u><b>Thief:</b></u> This class also undergoes a multilevel inheritance with Character, through NPC and Miscellaneous to inherit name, x and y position, joined kingdom, and health attributes. In order to make this character more        unique, we gave it the ability to steal/plunder, move and faint through the methods plunder(), faint() and move(). </li><br>
+    <li><b>Thief:</b> This class also undergoes a multilevel inheritance with Character, through NPC and Miscellaneous to inherit name, x and y position, joined kingdom, and health attributes. In order to make this character more        unique, we gave it the ability to steal/plunder, move and faint through the methods plunder(), faint() and move(). </li><br>
     <li> <u><b>Trader:</b></u> The Trader class brings life to a new character as it inherits all its attributes from Character, giving it health, an x and y position and which house it belongs to. It allows the player to trade with it          through method trade(), and doesn’t move places for convenience. </li> <br>
    </ul>
   </ul>
@@ -81,14 +81,16 @@ The intended users are players interested in medieval fantasy, RPGs, exploration
 
 
 ## Goals:
-Objective 1: By the end of project development period, we want to make a playable 2D top down low fantasy medieval RPG European-inspired setting with at least three explorable and interactive settings, five interactive non-playable characters (NPCs), and two distinct main factions, each with its own identity and interests, showing the application of python object-oriented programming (OOP) and worldbuilding.
+<ul>
+<li></li>Objective 1: By the end of project development period, we want to make a playable 2D top down low fantasy medieval RPG European-inspired setting with at least three explorable and interactive settings, five interactive non-playable characters (NPCs), and two distinct main factions, each with its own identity and interests, showing the application of python object-oriented programming (OOP) and worldbuilding.</li>
 
-Objective 2: By the end of project development period, we want to make at least four main gameplay systems, namely, character progression, inventory management, quest management, and turn-based combat, showing the application of python object-oriented programming (OOP) and worldbuilding.
+<li>Objective 2: By the end of project development period, we want to make at least four main gameplay systems, namely, character progression, inventory management, quest management, and turn-based combat, showing the application of python object-oriented programming (OOP) and worldbuilding.</li>
 
 
-Objective 3: By the end of project development period, we want to make at least three conquestial player decisions that 
+<li>Objective 3: By the end of project development period, we want to make at least three conquestial player decisions that 
 	affect the storyline, faction relationships, and quest outcomes. We also want to make at least two distinct possible endings. 
-	We will validate the game’s functionality through systematic play testing.
+	We will validate the game’s functionality through systematic play testing.</li>
+</ul>
 
 
 
