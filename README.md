@@ -47,28 +47,31 @@ The project aims to provide an fun, engaging, and interactive entertainment expe
 		</ul>
 	</ul>
 
-<li>The Miscellaneous Class on the other hand:</li>
+<li>The <b><u>Miscellaneous Class</u></b> on the other hand:</li>
   <ul><li>Are those that are incapable of doing damage to the player character. Rather, they serve as support characters, or peons for the plot of the story, but still help with its progression. However, they still inherit every    attribute and method from NPC except for “rawattack.” and move().</li>
-  <li>In our shown class diagram, 3 other classes inherit from this, namely:</li> 
-   <ul> <li>Quest Giver: This will serve as the main class for characters in our game that will give quests through the method assignQuest(). It doesn’t move and forms a multilevel inheritance with Character, through NPC, and         then Miscellaneous, inheriting its attributes such as health, x and y position, name and joined kingdom. In addition, quest giver has a Composition relationship with Class Quest.</li>
+  <li>In our shown class diagram, 3 other classes inherit from this, namely:</li> <br>
+   <ul> <li><u><b>Quest Giver:</b></u> This will serve as the main class for characters in our game that will give quests through the method assignQuest(). It doesn’t move and forms a multilevel inheritance with Character, through NPC, and         then Miscellaneous, inheriting its attributes such as health, x and y position, name and joined kingdom. In addition, quest giver has a Composition relationship with Class Quest.</li>
 	   <ul>
         <li><b><u>Class Quest:</u></b>
           This class contains all key properties and attributes of an ideal quest in our game, which includes the quest string or statement. And to reward players, upon completion, a reward may be given by completing the            quest. </li>
-	   </ul>
-    <li>Thief: This class also undergoes a multilevel inheritance with Character, through NPC and Miscellaneous to inherit name, x and y position, joined kingdom, and health attributes. In order to make this character more        unique, we gave it the ability to steal/plunder, move and faint through the methods plunder(), faint() and move(). </li>
-    <li> Trader: The Trader class brings life to a new character as it inherits all its attributes from Character, giving it health, an x and y position and which house it belongs to. It allows the player to trade with it          through method trade(), and doesn’t move places for convenience. </li> 
+	   </ul><br>
+    <li><u><b>Thief:</b></u> This class also undergoes a multilevel inheritance with Character, through NPC and Miscellaneous to inherit name, x and y position, joined kingdom, and health attributes. In order to make this character more        unique, we gave it the ability to steal/plunder, move and faint through the methods plunder(), faint() and move(). </li><br>
+    <li> <u><b>Trader:</b></u> The Trader class brings life to a new character as it inherits all its attributes from Character, giving it health, an x and y position and which house it belongs to. It allows the player to trade with it          through method trade(), and doesn’t move places for convenience. </li> 
    </ul>
   </ul>
 	</ul>
 	
 
-House Classes contain NPCs in an aggregation relationship:
-  It has 3 attributes and 2 methods:
-    Attributes: An NPC house_ruler, a house_members list filled with NPCs and the Player, and the house name as a string.
-    Methods: There is one method to join an alliance with another House to form a bigger list of Houses, or declare war on a house. Depending on where the player joins, these declarations could be random because other       Houses could declare war on the player’s house.
-    Houses could be “Allied Houses” or “Opposing Houses depending on the alliance you have with them:
-        AlliedHouse Classes inherit everything from the normal house, but it also includes the x and y positions of the house as integers. In addition, it also has the method recruitAllies(), which allows you to recruit           more members for the houses.
-        Opposing House Classes are Houses that your alliance houses have declared war on. They inherit everything from the House, and it also contains x and y positions as integer attributes.
+<li>House Classes contain NPCs in an aggregation relationship:
+	<ul>
+  <li>It has 3 attributes and 2 methods:</li>
+		<ul>
+    <li>Attributes: An NPC house_ruler, a house_members list filled with NPCs and the Player, and the house name as a string.</li>
+    <li>Methods: There is one method to join an alliance with another House to form a bigger list of Houses, or declare war on a house. Depending on where the player joins, these declarations could be random because other       Houses could declare war on the player’s house.</li>
+		</ul>
+   <li> <ul>Houses could be “Allied Houses” or “Opposing Houses depending on the alliance you have with them: </li>
+        <li>AlliedHouse Classes inherit everything from the normal house, but it also includes the x and y positions of the house as integers. In addition, it also has the method recruitAllies(), which allows you to recruit           more members for the houses.</li>
+        <li>Opposing House Classes are Houses that your alliance houses have declared war on. They inherit everything from the House, and it also contains x and y positions as integer attributes.</ul></ul></li>
 </ul>
 
 The intended users are players interested in medieval fantasy, RPGs, exploration, and narrative-driven experiences or just anyone who enjoys interactive storytelling and strategic decision-making.
@@ -98,13 +101,8 @@ Objective 3: By the end of project development period, we want to make at least 
 
 
 
-<img src="ourlovelysigs.png" alt="Hi Sir Roy!!">
+<img width="400" src="ourlovelysigs.png" alt="Hi Sir Roy!!">
 
-
-
-
-
-Roy Vincent Canseco 
 
 
 ## Message for Sir Roy:
