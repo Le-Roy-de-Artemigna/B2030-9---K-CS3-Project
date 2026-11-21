@@ -2,10 +2,10 @@
 Project Proposal Template
 
 <b>Project Title or 
-Name of the Application</b>	: The Crimson Court of Caerwick 
-<b>Section</b>			   	: 9 - Potassium
-<b>Group Members</b>			: Gabriel Alfonso Ascano, Nathan Ray Gabito, and Venyceson Reyes 	
-<b>Date (Proposal Date)</b>	: November 21, 2026
+Name of the Application</b>	: The Crimson Court of Caerwick <br>
+<b>Section</b>			   	: 9 - Potassium <br>
+<b>Group Members</b>			: Gabriel Alfonso Ascano, Nathan Ray Gabito, and Venyceson Reyes <br>	
+<b>Date (Proposal Date)</b>	: November 21, 2026 
 
 <b><p style="fontsize: 19;">Project Description:</p></b>
 The Crimson Court of Caerwick is a low fantasy medieval RPG game set in the fictional Kingdom of Caerwick following the death of King Edric “the Just” III and the subsequent succession crisis. Players assume the role of an adventurer whose decisions, alliances, and actions influence the kingdom's political landscape. They can select a character class, acquire equipment, complete quests, interact with non-player characters (NPCs), engage in turn-based combat, and explore the kingdom's diverse regions. The game primarily takes place in Aurecourt, the kingdom's capital and center of political power, where competing noble houses struggle for influence over the vacant throne.
