@@ -15,7 +15,7 @@ The project aims to provide an fun, engaging, and interactive entertainment expe
 
 Classes:
 Character Class:
-  This is the class the people that interact will have. They have 7 attributes and 2 methods:
+    This is the class the people that interact will have. They have 7 attributes and 2 methods:
     Attributes: Their name as a string, their health points and rawattack points as integers, their x position and y position as integers to track their movement, their specialAbility as a string, and their Allied_House       as a string.
 Methods: 
   move(): This is used for them to move around the kingdom and interact with the NPCs. 
