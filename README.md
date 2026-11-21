@@ -1,26 +1,29 @@
 # B2030-9---K-CS3-Project
-# B2030-9---K-CS3-Project
 Project Proposal Template
 
-Project Title or 
-Name of the Application	: The Crimson Court of Caerwick 
-Section			   	: 9 - Potassium
-Group Members			: Gabriel Alfonso Ascano, Nathan Ray Gabito, and Venyceson Reyes 	
-Date (Proposal Date)		: November 21, 2026
+<b>Project Title or 
+Name of the Application</b>	: The Crimson Court of Caerwick 
+<b>Section</b>			   	: 9 - Potassium
+<b>Group Members</b>			: Gabriel Alfonso Ascano, Nathan Ray Gabito, and Venyceson Reyes 	
+<b>Date (Proposal Date)</b>	: November 21, 2026
 
-Project Description:
+<b><p style="fontsize: 19;">Project Description:</p></b>
 The Crimson Court of Caerwick is a low fantasy medieval RPG game set in the fictional Kingdom of Caerwick following the death of King Edric “the Just” III and the subsequent succession crisis. Players assume the role of an adventurer whose decisions, alliances, and actions influence the kingdom's political landscape. They can select a character class, acquire equipment, complete quests, interact with non-player characters (NPCs), engage in turn-based combat, and explore the kingdom's diverse regions. The game primarily takes place in Aurecourt, the kingdom's capital and center of political power, where competing noble houses struggle for influence over the vacant throne.
 
 The project aims to provide an fun, engaging, and interactive entertainment experience through exploration, character progression, and consequential decision-making. It will also serve as an application of Python object-oriented programming (OOP) with the use of classes, attributes, methods, inheritance, encapsulation, inheritance, polymorphism, and more to create and build the game.
 
-Classes:
-Character Class:
-    This is the class the people that interact will have. They have 7 attributes and 2 methods:
-    Attributes: Their name as a string, their health points and rawattack points as integers, their x position and y position as integers to track their movement, their specialAbility as a string, and their Allied_House       as a string.
-Methods: 
-  move(): This is used for them to move around the kingdom and interact with the NPCs. 
-  faint(): When a player gets 0 HP, they will be transported to a clinic, and will have to wait for a bit until they play again.
-
+<b><p style="fontsize: 19;">Classes:</p></b>
+<b>Character Class:</b>
+  This is the class the people that interact will have. They have 7 attributes and 2 methods:
+  <ul>
+   <li> Attributes: Their name as a string, their health points and rawattack points as integers, their x position and y position as integers to track their movement, their specialAbility as a string, and their Allied_House as a string. </li>
+<li>Methods: 
+<ul>
+  <li style="list-style-type: square;">move(): This is used for them to move around the kingdom and interact with the NPCs.</li> 
+  <li style="list-style-type: square;">faint(): When a player gets 0 HP, they will be transported to a clinic, and will have to wait for a bit until they play again.</li>
+</ul>
+</li>
+</ul>
 Two classes inherit from Character: Player and NPC
   Player Class:
     This is the class the user will control. Player inherits all attributes from the Character, with addition to an inventory full of the weapons they use. All methods are also inherited, with addition to two new methods.     The first one is an encounter method, which is executed when the Player goes near an Enemy. This makes the Player dependent on an NPC. There is also a flee method, allowing the player to run away from these                encounters. 
@@ -94,56 +97,4 @@ Roy Vincent Canseco
 Hi Sir. Roy! We hope you like this project proposal because we’re actually quite passionate about it! All of us in our group are quite interested in these types of “interactive RPGs” and the worldbuilding behind them, so it would be REALLLLLLY cool if you liked it too po!!! Thank you!!!
 
 Google Document Project Proposal Link: https://docs.google.com/document/d/1OYx6tYv5j-dMb8ukUuVH995kG_sb6tQgWylzicBD3i0/edit?tab=t.0
-
-Mode of Submission: through KHUB with a link to your README.MD inside your github account  (GitHub or https://github.com/) NOTE: Create an account for your project (one is the owner two will be collaborators)
-
-
-
-
-
-
-
-
-
-
-Project Proposal Rubric (20 Points)
-Criteria
-4 - Exemplary
-3 - Proficient
-2 - Developing
-1 - Beginning
-Points
-Project Description & Need
-Clearly explains the application's purpose, the problem it addresses, and why it is needed.
-Explains the purpose and need with minor gaps.
-Purpose or need is somewhat unclear.
-Description is incomplete or unclear.
-/4
-System Features & OOP Design (6
-Clearly describes all classes, attributes, methods, features, expected outputs, and interactions among classes.
-Most classes, attributes, methods, and features are described accurately.
-Some OOP elements are described but lack detail or accuracy.
-OOP design is largely missing or incorrect.
-/6
-Target Users (2 pts)
-Clearly identifies target users and explains their needs.
-Identifies target users with some explanation.
-Mentions target users but explanation is limited.
-Target users are unclear or missing.
-/2
-Class Diagram (4 pts)
-The diagram accurately represents classes, attributes, methods, and relationships described in the proposal.
-The diagram is mostly accurate with minor inconsistencies.
-The diagram contains several omissions or inaccuracies.
-The diagram is missing or does not match the description.
-/4
-Goals & Objectives (4 pts)
-Goals are meaningful and objectives are clear, specific, and aligned with the project.
-Goals and objectives are generally clear and aligned.
-Goals or objectives lack clarity or alignment.
-Goals and objectives are incomplete or missing.
-/4
-
-
-
 
